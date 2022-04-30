@@ -47,33 +47,37 @@ a {
 }
 
 @media only screen and (min-width: 1150px) {
+    .head {
+        height: 645px;
+        padding: 20px;
+        margin-top: 80px;
+    }
+    .container-head h1 {
+        font-size: 4rem;
+    }
     .container-head {
-        background-color: #444444;
         display: flex;
         justify-content: center;
         align-items: center;
-        column-gap: 150px;
-        margin: 70px auto;
+        margin: 0 auto 150px auto;
         width: 80%;
         height: 80vh;
-    }
-
-    img {
-        height: 350px;
-        width: 350px;
-        border-radius: 10px;
     }
 
     .content {
         display: flex;
         justify-content: center;
-        column-gap: 30px;
+        column-gap: 40px;
     }
     .boxes {
         width: 20%;
         padding: 20px;
         height: 40rem;
         background-color: #444444;
+    }
+
+    #image {
+        margin-top: 103px;
     }
 
     #link {
